@@ -8,6 +8,7 @@
   "reactotron-redux": "latest",
   "reactotron-redux-saga": "latest",
   "redux": "latest",
+  "redux-persist": "latest",
   "reduxsauce": "latest",
   "redux-saga": "latest",
   "seamless-immutable": "latest",
