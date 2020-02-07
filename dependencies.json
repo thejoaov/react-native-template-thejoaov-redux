@@ -1,5 +1,6 @@
 {
   "axios": "latest",
+  "immer": "latest",
   "prop-types": "latest",
   "react-native-gesture-handler": "latest",
   "react-navigation": "latest",
