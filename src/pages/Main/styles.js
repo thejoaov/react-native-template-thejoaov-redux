@@ -38,4 +38,5 @@ export const GithubUserPhoto = styled.Image`
   height: 100px;
   border-radius: 50px;
   margin: 30px 0;
+  background-color: #999;
 `;
