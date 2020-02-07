@@ -7,7 +7,7 @@ export const Container = styled.SafeAreaView`
   background-color: #e5e5e5;
 `;
 
-export const HelloWorld = styled.Text`
+export const Title = styled.Text`
   font-size: 30px;
 `;
 

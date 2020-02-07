@@ -7,7 +7,7 @@ import {
   GithubUserButton,
   GithubUserInput,
   GithubUserPhoto,
-  HelloWorld,
+  Title,
 } from './styles';
 
 export default function Main() {
@@ -26,7 +26,7 @@ export default function Main() {
 
   return (
     <Container>
-      <HelloWorld>Hello World!</HelloWorld>
+      <Title>Hello World!</Title>
       {!visible ? (
         <>
           <Text>Type a Github username</Text>
