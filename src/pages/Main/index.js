@@ -1,0 +1,44 @@
+import React, { useState } from 'react';
+import { Text } from 'react-native';
+import api from '~/services/api';
+
+import {
+  Container,
+  GithubUserButton,
+  GithubUserInput,
+  GithubUserPhoto,
+  HelloWorld,
+} from './styles';
+
+export default function Main() {
+  const [value, onChangeText] = useState('');
+  const [user, setUser] = useState([]);
+
+  async function searchUser() {
+    const { data } = await api.get(`/user/${value}`);
+    setUser(data);
+  }
+
+  return (
+    <Container>
+      <HelloWorld>Hello World!</HelloWorld>
+      {user ? (
+        <>
+          <Text>Type a Github username</Text>
+          <GithubUserInput
+            onChangeText={text => onChangeText(text)}
+            value={value}
+          />
+          <GithubUserButton onPress={() => searchUser()}>
+            <Text>Search!</Text>
+          </GithubUserButton>
+        </>
+      ) : (
+        <>
+          <GithubUserPhoto source={{ uri: user.avatar_url }} />
+          <Text>{user.name}</Text>
+        </>
+      )}
+    </Container>
+  );
+}

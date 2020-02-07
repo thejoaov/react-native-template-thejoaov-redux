@@ -1,0 +1,26 @@
+{
+  "name": "react-native-template-thejoaov-redux",
+  "version": "1.0.0",
+  "description": "Template para projetos em React Native, com Estrutura de Pastas customizada, Estilos Globais, ESLint + Prettier + Babel Plugin Root Import, React Navigation, Redux, Redux Saga, Reactotron e Axios configurados",
+  "keywords": [
+    "react-native",
+    "template",
+    "rocketseat",
+    "eslint",
+    "react-navigation",
+    "reactotron",
+    "babel-root-import",
+    "axios",
+    "redux",
+    "redux-saga",
+    "husky",
+    "lint-staged"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thejoaov/react-native-template-thejoaov-redux.git"
+  },
+  "homepage": "https://github.com/thejoaov/react-native-template-thejoaov-redux#readme",
+  "author": "João Victor <jvictorsantos852@gmail.com>",
+  "license": "MIT"
+}
