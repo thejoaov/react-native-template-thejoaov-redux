@@ -22,6 +22,7 @@ export default function Main() {
   async function searchUser() {
     const { data } = await api.get(`/users/${value}`);
     setUser(data);
+    setValue('');
   }
 
   return (
