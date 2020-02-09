@@ -6,5 +6,6 @@ deploy:
   api_key: $API_KEY
   on:
     tags: true
+    tag: next
     repo: thejoaov/react-native-template-thejoaov-redux
     branch: master
