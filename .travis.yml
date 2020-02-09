@@ -4,8 +4,8 @@ deploy:
   provider: npm
   email: $EMAIL
   api_key: $API_KEY
+  tag: next
   on:
     tags: true
-    tag: next
     repo: thejoaov/react-native-template-thejoaov-redux
     branch: master
