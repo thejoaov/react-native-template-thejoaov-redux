@@ -3,8 +3,7 @@ language: node_js
 deploy:
   provider: npm
   email: $EMAIL
-  api_key:
-    secure: $API_KEY
+  api_key: $API_KEY
   on:
     repo: thejoaov/react-native-template-thejoaov-redux
     branch: master
