@@ -30,7 +30,7 @@ export default function Main() {
       <Title>Hello World!</Title>
       {!visible ? (
         <>
-          <Text>Type a Github username</Text>
+          <Text>Type a GitHub username</Text>
           <GithubUserInput
             onChangeText={text => onChangeText(text)}
             value={value}
