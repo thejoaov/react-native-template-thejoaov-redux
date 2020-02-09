@@ -5,7 +5,6 @@ deploy:
   email: $EMAIL
   api_key:
     secure: $API_KEY
-  tag: next
   on:
     tags: true
     repo: thejoaov/react-native-template-thejoaov-redux
