@@ -11,7 +11,7 @@ import {
 } from './styles';
 
 export default function Main() {
-  const [value, onChangeText] = useState('');
+  const [value, onChangeText] = useState('thejoaov');
   const [user, setUser] = useState([]);
   const [visible, setVisible] = useState(false);
 
