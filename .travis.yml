@@ -1,10 +1,16 @@
 language: node_js
 
+branches:
+  only:
+    - master
+    - /v\d+\.\d+[a-z]/
+
 deploy:
   provider: npm
   email: $EMAIL
   api_key:
     secure: $API_KEY
+
   on:
     tags: true
     repo: thejoaov/react-native-template-thejoaov-redux
