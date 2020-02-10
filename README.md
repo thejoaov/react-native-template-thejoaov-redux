@@ -98,6 +98,6 @@ After the project was created with `react-native-cli`, probably the git will not
 
 3 - Do the initial commit, with `git add . && git commit -m "Initial Commit"`;
 
-4 - Reinstall the modules with `yarn` or `npm i`;
+4 - Reinstall the modules with `yarn install` or `npm install`;
 
 Then these two will be normally working :sweat_smile:
