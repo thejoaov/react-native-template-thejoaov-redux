@@ -1,6 +1,6 @@
 {
   "name": "react-native-template-thejoaov-redux",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "Advanced template to react-native projects, with custom folder structure, global styles, ESLint + Prettier + Babel Plugin Root Import, React Navigation, Redux, Redux Saga, Reactotron, Husky + Lint Staged and Axios configured",
   "keywords": [
     "react-native",
