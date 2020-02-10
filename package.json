@@ -1,6 +1,6 @@
 {
   "name": "react-native-template-thejoaov-redux",
-  "version": "1.0.23",
+  "version": "1.0.24",
   "description": "Template para projetos em React Native, com Estrutura de Pastas customizada, Estilos Globais, ESLint + Prettier + Babel Plugin Root Import, React Navigation, Redux, Redux Saga, Reactotron e Axios configurados",
   "keywords": [
     "react-native",
