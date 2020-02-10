@@ -92,9 +92,12 @@ thejoaov-redux
 
 After the project was created with `react-native-cli`, probably the git will not be initialized, thus, during the husky package installation, there will be no `.git` folder to install husky's hooks. The workaround if you want to use these two pre-configured packages is:
 
-1 - After the project created, do `rm -rf node_modules` (or delete `node_modules` folder manually).
-2 - Initialize git repository with `git init` (this will create the `.git` folder)
-3 - Do the initial commit, with `git add . && git commit -m "Initial Commit"`
-4 - Reinstall the modules with `yarn` or `npm i`
+1 - After the project created, do `rm -rf node_modules` (or delete `node_modules` folder manually);
+
+2 - Initialize git repository with `git init` (this will create the `.git` folder);
+
+3 - Do the initial commit, with `git add . && git commit -m "Initial Commit"`;
+
+4 - Reinstall the modules with `yarn` or `npm i`;
 
 Then these two will be normally working :sweat_smile:
