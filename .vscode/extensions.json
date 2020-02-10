@@ -1,0 +1,11 @@
+{
+  "recommendations": [
+    "dbaeumer.vscode-eslint",
+    "esbenp.prettier-vscode",
+    "EditorConfig.EditorConfig",
+    "rocketseat.rocketseatreactnative",
+    "jpoissonnier.vscode-styled-components",
+    "eamodio.gitlens",
+    "pkief.material-icon-theme"
+  ]
+}

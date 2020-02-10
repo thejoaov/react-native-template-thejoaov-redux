@@ -11,6 +11,16 @@ or
 Template created to save time configuring a new react-native project.
 It comes with:
 
+### VsCode Extensions:
+
+- Eslint
+- Prettier
+- EditorConfig
+- Rocketseat React Native Snippets
+- VsCode Styled Components
+- GitLens
+- Material Icon Theme
+
 ### Dependencies:
 
 - axios
@@ -52,6 +62,8 @@ It comes with:
 
 ```bash
 thejoaov-redux
+├── .vscode
+│   └── extensions.json
 ├── src
 │   ├── config
 │   │   └── ReactotronConfig.js
@@ -77,6 +89,8 @@ thejoaov-redux
 ├── .editorconfig
 ├── .eslintrc.js
 ├── .gitignore
+├── .huskyrc.js
+├── .lintstagedrc.js
 ├── .prettierrc.js
 ├── LICENSE
 ├── README.md
