@@ -1,10 +1,20 @@
 <div align="center">
   <h1>react-native-template-thejoaov-redux</h1>
+<a href="https://www.npmjs.com/package/react-native-template-thejoaov-redux">
   <img alt="npm" src="https://img.shields.io/npm/dw/react-native-template-thejoaov-redux?style=for-the-badge">
+</a>
+<a href="https://www.npmjs.com/package/react-native-template-thejoaov-redux">
   <img alt="NPM" src="https://img.shields.io/npm/l/react-native-template-thejoaov-redux?style=for-the-badge">
+</a>
+<a href="https://github.com/thejoaov/react-native-template-thejoaov-redux/search?l=javascript">
   <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/thejoaov/react-native-template-thejoaov-redux?style=for-the-badge">
+</a>
+<a href="https://www.npmjs.com/package/react-native-template-thejoaov-redux">
   <img alt="npm" src="https://img.shields.io/npm/v/react-native-template-thejoaov-redux?style=for-the-badge">
+</a>
+<a href="https://github.com/thejoaov/react-native-template-thejoaov-redux/actions">
   <img alt="GitHub Workflow Status" src="https://img.shields.io/github/workflow/status/thejoaov/react-native-template-thejoaov-redux/Publish to NPM?style=for-the-badge">
+</a>
 </div>
 
 ---
