@@ -11,7 +11,7 @@ import {
 } from './styles';
 
 export default function Main() {
-  const [value, onChangeText] = useState('thejoaov');
+  const [value, setValue] = useState('thejoaov');
   const [user, setUser] = useState([]);
   const [visible, setVisible] = useState(false);
 
@@ -32,7 +32,7 @@ export default function Main() {
         <>
           <Text>Type a GitHub username</Text>
           <GithubUserInput
-            onChangeText={text => onChangeText(text)}
+            onChangeText={text => setValue(text)}
             value={value}
             autoCapitalize="none"
           />
