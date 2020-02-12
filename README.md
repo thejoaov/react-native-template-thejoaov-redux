@@ -1,4 +1,12 @@
-# react-native-template-thejoaov-redux
+<div align="center">
+  <h1>react-native-template-thejoaov-redux</h1>
+  <img alt="npm" src="https://img.shields.io/npm/dw/react-native-template-thejoaov-redux?style=for-the-badge">
+  <img alt="NPM" src="https://img.shields.io/npm/l/react-native-template-thejoaov-redux?style=for-the-badge">
+  <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/thejoaov/react-native-template-thejoaov-redux?style=for-the-badge">
+  <img alt="GitHub Workflow Status" src="https://img.shields.io/github/workflow/status/thejoaov/react-native-template-thejoaov-redux/Publish to NPM?style=for-the-badge">
+</div>
+
+---
 
 `react-native init "myApp" --template=thejoaov-redux`
 
