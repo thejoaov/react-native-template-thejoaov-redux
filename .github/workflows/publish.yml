@@ -6,7 +6,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: Publish
-      if: github.ref == 'refs/heads/master'
       uses: mikeal/merge-release@master
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_AUTH_TOKEN }}
