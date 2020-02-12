@@ -7,11 +7,7 @@
   <img alt="GitHub Workflow Status" src="https://img.shields.io/github/workflow/status/thejoaov/react-native-template-thejoaov-redux/Publish to NPM?style=for-the-badge">
 </div>
 
-  <kbd align="center">react-native init "myApp" --template=thejoaov-redux</kbd>
-
-  <kbd>npx react-native-cli init "myApp" --template=thejoaov-redux</kbd>
-
-</div>
+<kbd align="center">react-native init "myApp" --template=thejoaov-redux</kbd> - <kbd>npx react-native-cli init "myApp" --template=thejoaov-redux</kbd>
 
 ---
 
