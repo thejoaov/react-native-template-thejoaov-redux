@@ -25,6 +25,7 @@ module.exports = {
   },
   plugins: ['react', 'react-native', 'jsx-a11y', 'import', 'prettier'],
   rules: {
+    'no-param-reassign': 'off',
     'prettier/prettier': 'error',
     'react/jsx-filename-extension': ['error', { extensions: ['.js', '.jsx'] }],
     'import/prefer-default-export': 'off',
