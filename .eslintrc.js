@@ -25,15 +25,15 @@ module.exports = {
   },
   plugins: ['react', 'react-native', 'jsx-a11y', 'import', 'prettier'],
   rules: {
+    'global-require': 'off',
     'no-param-reassign': 'off',
+    'no-unused-vars': ['error', { argsIgnorePattern: '^_' }],
+    'import/prefer-default-export': 'off',
     'prettier/prettier': 'error',
     'react/jsx-filename-extension': ['error', { extensions: ['.js', '.jsx'] }],
-    'import/prefer-default-export': 'off',
-    'no-unused-vars': ['error', { argsIgnorePattern: '^_' }],
     'react/jsx-one-expression-per-line': 'off',
     'react-native/no-color-literals': 'off',
     'react-native/sort-styles': 'off',
-    'global-require': 'off',
     'react-native/no-raw-text': 'off',
   },
   settings: {
