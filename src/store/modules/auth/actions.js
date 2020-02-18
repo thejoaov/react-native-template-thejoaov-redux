@@ -1,3 +1,9 @@
+export function signInTest() {
+  return {
+    type: '@auth/SIGN_IN_TEST',
+  };
+}
+
 export function signInRequest(usuario, senha) {
   return {
     type: '@auth/SIGN_IN_REQUEST',

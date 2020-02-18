@@ -1,15 +1,18 @@
 import { takeLatest, call, put, all } from 'redux-saga/effects';
 import { Alert } from 'react-native';
 
-import { signInSuccess, signFailure } from './actions';
+import { signInSuccess, signFailure, signInTest } from './actions';
 import api from '~/services/api';
 
 export function* signIn({ payload }) {
   try {
     /**
-     * Desenvolva aqui seu saga de login
+     * Develop here your login method
+     * this acts as a middleware.
+     * learn more about redux-saga:
+     * https://redux-saga.js.org/
      */
-    console.log('Tentativa de login :D');
+    console.log('Login attempt :D');
   } catch (err) {
     Alert.alert(
       'Erro no login',

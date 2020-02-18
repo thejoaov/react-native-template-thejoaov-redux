@@ -10,6 +10,17 @@ const INITIAL_STATE = {
 export default function auth(state = INITIAL_STATE, action) {
   return produce(state, draft => {
     switch (action.type) {
+      /**
+       * This action can safely deleted after you implement
+       * your own sign in method.
+       */
+      case '@auth/SIGN_IN_TEST': {
+        draft.signed = true;
+        break;
+      }
+      /**
+       * These other might be useful.
+       */
       case '@auth/SIGN_IN_REQUEST': {
         draft.loading = true;
         break;
