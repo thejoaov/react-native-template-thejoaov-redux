@@ -4,7 +4,7 @@ export const Container = styled.SafeAreaView`
   flex: 1;
   justify-content: center;
   align-items: center;
-  background-color: #e5e5e5;
+  background-color: #fff;
 `;
 
 export const Title = styled.Text`
@@ -18,7 +18,7 @@ export const GithubUserInput = styled.TextInput`
   border-radius: 5px;
   text-align: center;
   margin: 20px 0;
-  border: 1px;
+  border: 2px;
   border-color: #34b6ff;
 `;
 
@@ -39,4 +39,14 @@ export const GithubUserPhoto = styled.Image`
   border-radius: 50px;
   margin: 30px 0;
   background-color: #999;
+`;
+
+export const LogoutButton = styled.TouchableOpacity`
+  height: 50px;
+  width: 280px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: #34b6;
+  border-radius: 5px;
 `;

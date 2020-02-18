@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Text } from 'react-native';
+import { useDispatch } from 'react-redux';
 import api from '~/services/api';
 
 import {
@@ -8,12 +9,16 @@ import {
   GithubUserInput,
   GithubUserPhoto,
   Title,
+  LogoutButton,
 } from './styles';
+import { signOutTest } from '~/store/modules/auth/actions';
 
 export default function Main() {
   const [value, setValue] = useState('thejoaov');
   const [user, setUser] = useState([]);
   const [visible, setVisible] = useState(false);
+
+  const dispatch = useDispatch();
 
   useEffect(() => {
     user.avatar_url ? setVisible(true) : setVisible(false);
@@ -49,6 +54,9 @@ export default function Main() {
           </GithubUserButton>
         </>
       )}
+      <LogoutButton onPress={() => dispatch(signOutTest())}>
+        <Text>Logout</Text>
+      </LogoutButton>
     </Container>
   );
 }
