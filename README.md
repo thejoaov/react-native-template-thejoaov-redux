@@ -55,7 +55,9 @@ It comes with:
 - styled-components
 
 ### DevDependencies:
-
+- @commitlint/cli
+- @commitlint/config-angular
+- @react-native-community/eslint-config
 - babel-eslint
 - babel-plugin-root-import
 - babel-plugin-transform-remove-console
@@ -66,12 +68,11 @@ It comes with:
 - eslint-plugin-jsx-a11y
 - eslint-plugin-react
 - eslint-plugin-react-native
-- prettier
 - eslint-plugin-prettier
 - eslint-config-prettier
-- @react-native-community/eslint-config
 - husky
 - lint-staged
+- prettier
 
 ### Structure
 
