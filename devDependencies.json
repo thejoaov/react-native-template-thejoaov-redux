@@ -2,6 +2,8 @@
   "babel-eslint": "latest",
   "babel-plugin-root-import": "latest",
   "babel-plugin-transform-remove-console": "latest",
+  "@commitlint/cli": "latest",
+  "@commitlint/config-angular": "latest",
   "eslint": "latest",
   "eslint-config-airbnb": "latest",
   "eslint-import-resolver-babel-plugin-root-import": "latest",
